@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tracks>
+	<side val="Side A" class="span-9">
+		<track n="1">The Fun Machine Took a Shit and Died</track>
+	</side>
+	<side val="Side B" class="last span-6">
+		<track n="1">Fun Machine Commentary</track>
+	</side>
+</tracks>

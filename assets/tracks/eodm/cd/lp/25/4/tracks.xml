@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tracks>
+	<side val="Cd1" class="span-6">
+		<track n="14">Nasty Notion</track>
+		<track n="15">Beat on the Brat</track>
+		<track n="16">Addicted to Love</track>
+		<track n="17">High Voltage Rock'n'Roll</track>
+	</side>
+	<side val="Bonus DVD" class="last span-7">
+		<track n="1">I Want You so Hard + making of</track>
+		<track n="2">I Got a Feelin' (Just Nineteen)</track>
+	</side>
+</tracks>

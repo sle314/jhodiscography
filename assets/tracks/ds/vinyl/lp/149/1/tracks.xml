@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tracks>
+	<side val="Side A" class="span-5">
+		<track n="1">Don't Drink Poison</track>
+		<track n="2">Hanging Tree</track>
+		<track n="3">Winners</track>
+	</side>
+	<side val="Side B" class="span-6">
+		<track n="1">Polly Wants a Crack Rock</track>
+		<track n="2">Up in Hell</track>
+	</side>
+	<side val="Side C" class="span-5">
+		<track n="1">Nenada</track>
+		<track n="2">The Idiots Guide</track>
+		<track n="3">Interpretive Reading</track>
+	</side>
+	<side val="Side D" class="last span-6">		
+		<track n="1">Covousier</track>
+		<track n="2">Cold Sore Superstar</track>
+		<track n="3">Making a Cross</track>
+	</side>
+</tracks>

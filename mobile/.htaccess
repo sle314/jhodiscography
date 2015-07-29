@@ -1,0 +1,15 @@
+RewriteEngine On
+RewriteBase /
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_URI} !(.*)/$
+RewriteRule ^(.*)$ /mobile/$1/ [L,R=301]
+
+RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
+RewriteRule ^(.*)$ http://%1/mobile/$1 [R=301,L]
+
+RewriteRule ^release[s]?/([a-zA-Z]+)/([a-zA-Z]+)/([a-zA-Z]+)/([0-9]+)/?$ /mobile/release.php?band=$1&format=$2&type=$3&id=$4
+RewriteRule ^release[s]?/([a-zA-Z]+)/([a-zA-Z]+)/([a-zA-Z]+)/([0-9]+)/([0-9]+||all)/?$ /mobile/release.php?band=$1&format=$2&type=$3&id=$4&show=$5
+RewriteRule ^release[s]?/([a-zA-Z]+)/([a-zA-Z]+)/([a-zA-Z]+)/?$ /mobile/relList.php?band=$1&format=$2&type=$3
+RewriteRule ^relList/([a-zA-Z]+)/([a-zA-Z]+)/([a-zA-Z]+)/?$ /mobile/relList.php?band=$1&format=$2&type=$3
+RewriteRule ^([a-zA-Z]+)/([a-zA-Z]+)/([a-zA-Z]+)/?$ /mobile/index.php?band=$1&format=$2&type=$3
+RewriteRule ^([a-zA-Z]+)/([a-zA-Z]+)/?$ /mobile/index.php?band=$1&format=$2&type=lp

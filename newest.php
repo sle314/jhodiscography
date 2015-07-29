@@ -1,0 +1,3 @@
+<div id="newest_link"><a href="#">Newest additions</a></div>
+	<div id="newest">
+	<a href='/releases/qotsa/vinyl/other/170/54#n54'>QotSA - QOTSA ACL/TX - boot</a><br/><a href='/releases/kyuss/cd/other/169/53#n53'>Kyuss - Elektra Entertainment March 1993 New Releases - promo</a><br/><a href='/releases/qotsa/cd/other/168/52#n52'>QotSA - This is Where I Belong - The Songs of Ray Davies & The Kinks - </a><br/><a href='/releases/other/cd/single/167/51#n51'>Other - Nobody to Love (End of Watch) - promo</a><br/><a href='/releases/eodm/cd/single/166/50#n50'>EoDM - Complexity - promo acetate</a><br/></div>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tracks>
+	<side val="Side A" class="span-8">
+		<track n="1">Lullaby</track>
+		<track n="2">Medication</track>
+		<track n="3">Everybody Knows That You're Insane</track>
+		<track n="4">Tangled Up in Plaid</track>
+		<track n="5">Burn the Witch</track>
+		<track n="6">In My head</track>
+	</side>
+	<side val="Side B" class="span-5">
+		<track n="1">Little Sister</track>
+		<track n="2">I Never Came</track>
+		<track n="3">Someone's in the Wolf</track>
+		<track n="4">The Blood is Love</track>
+	</side>
+	<side val="Side C" class="span-8">		
+		<track n="1">Skin on Skin</track>
+		<track n="2">Broken Box</track>
+		<track n="3">&quot;You Got a Killer Scene There, Man...&quot;</track>
+		<track n="4">Long Slow Goodbye</track>
+		<track n="5">Like a Drug</track>
+	</side>
+	<side val="Side D" class="last span-3">		
+		<track n="00">Etched</track>
+	</side>
+</tracks>

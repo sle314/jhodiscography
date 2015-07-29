@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tracks>
+	<side val="Side A" class="span-7">
+		<track n="1">No One Loves Me and Neither Do I</track>
+		<track n="2">Mind Eraser, No Chaser</track>
+		<track n="3">New Fang</track>
+		<track n="4">Dead End Friends</track>
+	</side>
+	<side val="Side B" class="span-4">
+		<track n="1">Elephants</track>
+		<track n="2">Scumbag Blues</track>
+		<track n="3">Bandoliers</track>
+	</side>
+	<side val="Side C" class="span-6">
+		<track n="1">Reptiles</track>
+		<track n="2">Interlude With Ludes</track>
+		<track n="3">Warsaw or the First Breath You Take After You Give Up</track>
+	</side>
+	<side val="Side D" class="last span-5">
+		<track n="1">Caligulove</track>
+		<track n="2">Gunman</track>
+		<track n="3">Spinning in Daffodils</track>
+	</side>
+</tracks>

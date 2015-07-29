@@ -1,0 +1,36 @@
+Options -Indexes
+
+ErrorDocument 400 /404
+ErrorDocument 401 /404
+ErrorDocument 403 /404
+ErrorDocument 404 /404
+ErrorDocument 405 /404
+ErrorDocument 408 /404
+ErrorDocument 409 /404
+ErrorDocument 410 /404
+ErrorDocument 414 /404
+ErrorDocument 415 /404
+ErrorDocument 500 /404
+ErrorDocument 502 /404
+ErrorDocument 503 /404
+ErrorDocument 504 /404
+ErrorDocument 505 /404
+
+RewriteEngine On
+RewriteBase /
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_URI} !(.*)/$
+RewriteRule ^(.*)$ /$1/ [L,R=301]
+
+RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
+RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
+  
+RewriteRule ^release[s]?/([a-zA-Z]+)/([a-zA-Z]+)/([a-zA-Z]+)/([0-9]+)/?$ /release.php?band=$1&format=$2&type=$3&id=$4
+RewriteRule ^release[s]?/([a-zA-Z]+)/([a-zA-Z]+)/([a-zA-Z]+)/([0-9]+)/([0-9]+||all)/?$ /release.php?band=$1&format=$2&type=$3&id=$4&show=$5
+RewriteRule ^desktop/release[s]?/([a-zA-Z]+)/([a-zA-Z]+)/([a-zA-Z]+)/([0-9]+)/?$ /release.php?band=$1&format=$2&type=$3&id=$4&desktop
+RewriteRule ^desktop/release[s]?/([a-zA-Z]+)/([a-zA-Z]+)/([a-zA-Z]+)/([0-9]+)/([0-9]+||all)/?$ /release.php?band=$1&format=$2&type=$3&id=$4&show=$5&desktop
+RewriteRule ^release[s]?/([a-zA-Z]+)/([a-zA-Z]+)/?$ /release.php?band=$1&format=$2
+RewriteRule ^desktop/release[s]?/([a-zA-Z]+)/([a-zA-Z]+)/?$ /release.php?band=$1&format=$2&desktop
+RewriteRule ^desktop/?$ /index.php?desktop
+RewriteRule ^other/?$ /other.html
+RewriteRule ^404/?$ /404.php

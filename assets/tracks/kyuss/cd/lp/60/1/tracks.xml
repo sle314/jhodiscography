@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tracks>
+	<side val="" class="span-6">
+		<track n="1">Hurricane</track>
+		<track n="2">One Inch Man</track>
+		<track n="3">Thee Ol' Boozeroony</track>
+		<track n="4">Gloria Lewis</track>
+		<track n="5">Phototropic</track>
+		<track n="6">El Rodeo</track>		
+	</side>
+	<side val="" class="last span-6">
+		<track n="7">Jumbo Blimp Jumbo</track>
+		<track n="8">Tangy Zizzle</track>
+		<track n="9">Size Queen</track>
+		<track n="10">Catamaran</track>
+		<track n="11">Spaceship Landing</track>
+	</side>
+</tracks>

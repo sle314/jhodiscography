@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tracks>
+	<side val="Side A" class="span-4">
+		<track n="1">Turnin' On the Screw</track>
+		<track n="2">Sick, Sick, Sick</track>
+	</side>
+	<side val="Side B" class="span-4">
+		<track n="1">I'm Designer</track>
+		<track n="2">Into the Hollow</track>
+	</side>
+	<side val="Side C" class="span-4">
+		<track n="1">Misfit Love</track>
+		<track n="2">Running Joke</track>		
+	</side>
+	<side val="Side D" class="span-4">
+		<track n="1">Battery Acid</track>
+		<track n="2">Make It Wit Chu</track>
+	</side>
+	<side val="Side E" class="span-4">
+		<track n="1">3's &amp; 7's</track>
+		<track n="2">Suture Up Your Future</track>
+	</side>
+	<side val="Side F" class="last span-4">
+		<track n="1">River in the Road</track>
+		<track n="2">Run, Pig, Run</track>
+	</side>
+</tracks>

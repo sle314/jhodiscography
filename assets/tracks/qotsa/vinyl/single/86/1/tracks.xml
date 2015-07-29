@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tracks>
+	<side val="Side A" class="span-4">
+		<track n="1">In My Head</track>
+	</side>
+	<side val="Side B" class="last span-10">
+		<track n="1">I Think I Lost My Headache (live from Earthlink)</track>
+	</side>
+</tracks>

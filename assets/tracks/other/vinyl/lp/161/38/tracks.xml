@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tracks>
+	<side val="Side A" class="span-6">
+		<track n="1">Heaven and All</track>
+		<track n="2">Time Slowing Down</track>
+		<track n="3">You Can't Fix This</track>
+	</side>
+	<side val="Side B" class="span-6">
+		<track n="1">The Man That Never Was</track>
+		<track n="2">Your Wife is Calling</track>
+		<track n="3">From Can to Can't</track>
+	</side>
+	<side val="Side C" class="span-6">
+		<track n="1">Centipede</track>
+		<track n="2">A Trick With No Sleeve</track>
+		<track n="3">Cut Me Some Slack</track>
+	</side>
+	<side val="Side D" class="last span-6">
+		<track n="1">If I Were Me</track>
+		<track n="2">Mantra</track>
+	</side>
+</tracks>

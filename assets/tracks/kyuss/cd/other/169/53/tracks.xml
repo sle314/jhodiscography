@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tracks>
+	<side val="Side One" class="span-11">
+		<track n="1">Frank Black - Los Angeles</track>
+        <track n="2">Frank Black - Hang on to Your Ego</track>
+        <track n="3">Papa's Culture - Swim</track>
+        <track n="4">Papa's Culture - (Who is) Mack Daddy</track>
+        <track n="5">Heather B. - I Get Wreck</track>
+        <track n="6">Heather B. - Get a Job</track>
+        <track n="7">Sid Selvidge - Pearlee</track>
+        <track n="8">Sid Selvidge - Since I Met You Baby</track>
+        <track n="9">Arthur Alexander - If It's Really Got to be This Way</track>
+        <track n="10">Arthur Alexander - Everyday I Have to Cry</track>
+	</side>
+    <side val="Side Two" class="last span-9">
+        <track n="1">Kronos - Cat O'Nine Tads</track>
+        <track n="2">Kronos - Physical Property</track>
+        <track n="3">Miranda Sex Garden - Andera Sempre</track>
+        <track n="4">Miranda Sex Garden - Sunshine</track>
+        <track n="5">Lords of the Underground - Funky Child</track>
+        <track n="6">Lords of the Underground - From Da Bricks</track>
+        <track n="7">Ethyl Meatplow - Close to You</track>
+        <track n="8">Ethyl Meatplow - Ripened Peach</track>
+        <track n="9">Black Cat Bone - Simple Vision</track>
+        <track n="10">Black Cat Bone - Teach Me to Fly</track>
+        <track n="11">Kyuss - Son of a Bitch</track>
+        <track n="12">Kyuss - I'm Not</track>
+    </side>
+</tracks>

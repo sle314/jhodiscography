@@ -1,0 +1,187 @@
+@charset "utf-8";
+
+.text-align-center {
+  text-align: center;
+}
+.text-align-right {
+  text-align: right;
+}
+.field{
+	width: 100%;
+}
+#container{
+	width: 90%;
+	margin: 10px auto 0 auto;
+}
+.release-cont{
+	margin: 0 auto 0 auto;
+}
+.ui-field-contain .ui-btn.ui-submit ,.ui-field-contain .ui-select {
+	width: 100%;
+}
+.ui-field-contain, .ui-mobile fieldset.ui-field-contain {
+    border-width: 0 0 1px;
+    margin: 0;
+    overflow: visible;
+    padding: 0.8em 0;
+}
+.go-button{
+	margin-top: 0px;
+}
+.header{
+	width: 100%;
+}
+.ui-content .ui-listview-inset{
+	margin: 0;
+}
+.ui-header .ui-title, .ui-footer .ui-title{
+	margin: 0 0 0 50px;
+	width: 60%;
+	padding: 13px 0;	
+	font-size: 12px;
+}
+.headerRelease.ui-header .ui-title, .headerRelease.ui-footer .ui-title{
+	padding: 8px 0;
+}
+.ui-li .ui-btn-text a.ui-link-inherit{
+	white-space: normal;
+}
+.ui-btn-inner{
+	white-space: normal;
+}
+a:link, a:visited, a:active, a:hover{
+	text-decoration: none;
+}
+.desktop{	
+	text-align: center;
+}
+.deskLink .ui-btn-inner{
+	font-size: 12px;
+	color: #000000;
+}
+.rel.desktop{	
+	width: 200px;
+	margin: 5px auto;
+	padding-top: 10px;
+}
+
+table#relTable{
+	border-bottom: 1px solid #aaa;
+	padding-bottom: 5px;
+	margin-bottom: 7px;
+	width: 100%;
+}
+table#relTable td{
+	padding:0 0 5px 0;
+}
+td.row{
+	color: #0ac;
+}
+#getTracks{
+	text-align: center;
+	width: 100%;
+}
+#getTracks a{
+	display: block;
+	padding-top: 5px;
+}
+#getTracks a:link, #getTracks a:visited, #getTracks a:active, #getTracks a:hover{
+	color: #000;
+	font-size: 14px;	
+}
+.tap-lrg{
+	font-size: 12px;
+	text-align: center;
+	margin-top: 5px;
+}
+.getImgs{
+	text-align: center;
+	margin-top: 5px;
+}
+.getImgs a:link, .getImgs a:visited, .getImgs a:active, .getImgs a:hover{
+	color: #0ac;
+	font-size: 16px;
+}
+.pics{
+	text-align:center;
+	padding-top: 10px;
+	width: 100%;
+}
+.gallery{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+.gallery li{
+	display: inline-block;
+	padding: 3px 3px;
+}
+img.releaseImage{
+	-moz-box-shadow: 1px 1px 3px #ddd;
+	-webkit-box-shadow: 1px 1px 3px #ddd;
+	box-shadow: 1px 1px 3px #ddd;
+}
+.t-list-wrapper{
+	border-bottom: 1px solid #aaa;
+	padding: 0 0 10px 0;
+}
+.t-list-title{
+	text-align: left;
+	color: #0ac;
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+.t-list-list{
+	width: 100%;
+}
+.t-list-tracks{
+	padding-left: 10px;
+	width: 100%;
+}
+.t-list-tracks span{
+	display: inline-block;
+}
+.t-list-track{
+	width: 80%;
+}
+.t-list-inner{
+	font-size: 12px;
+	width: 100%;
+	text-align: left;
+	padding-bottom: 5px;
+}
+.t-list-header{
+	width: 100%;
+	text-align: left;
+	font-weight: bold;
+	padding: 5px 0 5px 5px;
+}
+.t-list-first-inner{
+	text-align:right;
+	width: 20px;
+	float: left;
+	color: #0ac;
+}
+#newest{
+	text-align: center;
+	margin: 20px auto;
+	font-size: 12px;
+}
+#newest .ui-btn-inner{
+	font-size: 12px;
+	white-space: normal;
+}
+#newest .ui-collapsible-heading .ui-btn{
+	text-align: center;
+}
+#newest .ui-collapsible-heading, #newest .ui-collapsible-heading-collapsed{
+	width: 100%;
+	margin: 0 auto;
+}
+form .ui-btn-text{
+	left: 10px;
+}
+#newest .ui-btn-text{
+	left: -10px;
+}

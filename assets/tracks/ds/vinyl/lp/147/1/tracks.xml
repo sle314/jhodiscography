@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tracks>
+	<side val="Side A" class="span-6">
+		<track n="1">A#1</track>
+		<track n="2">Like a Drug</track>
+		<track n="3">Take Me to Your Leader</track>
+	</side>
+	<side val="Side B" class="last span-6">
+		<track n="1">Teens of Thailand</track>
+		<track n="2">Rickshaw</track>
+	</side>
+</tracks>

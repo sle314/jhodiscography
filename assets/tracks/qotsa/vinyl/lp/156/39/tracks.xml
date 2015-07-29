@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tracks>
+	<side val="Side A" class="span-7">
+		<track n="1">Keep Your Eyes Peeled</track>
+		<track n="2">I Sat By the Ocean</track>
+		<track n="3">The Vampyre of Time and Memory</track>
+	</side>
+	<side val="Side B" class="span-5">
+		<track n="1">If I Had a Tail</track>
+		<track n="2">My God is the Sun</track>
+		<track n="3">Kalopsia</track>
+	</side>
+	<side val="Side C" class="span-5">
+		<track n="1">Fairweather Friends</track>
+		<track n="2">Smooth Sailing</track>
+	</side>
+	<side val="Side D" class="last span-5">
+		<track n="1">I Appear Missing</track>
+		<track n="2">...Like Clockwork</track>
+	</side>
+</tracks>

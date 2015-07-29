@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tracks>
+	<side val="Side A" class="span-7">
+		<track n="1">Alain Johannes - Endless Eyes</track>
+		<track n="2">Desert Sessions - Nenada</track>
+	</side>
+	<side val="Side B" class="last span-7">
+		<track n="1">QotSA - Regular John</track>
+		<track n="2">Mini Mansions - The Room Outside</track>
+	</side>
+</tracks>

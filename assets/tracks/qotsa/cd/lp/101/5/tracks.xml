@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tracks>
+	<side val="Cd1" class="span-9">
+		<track n="12">The Fun Machine Took a Shit and Died</track>
+		<track n="13">Make It Wit Chu (acoustic)</track>		
+		<track n="14">Era Vulgaris (Richard File Remix)</track>		
+		<track n="15">I'm Designer (UNKLE Remix)</track>		
+	</side>
+	<side val="Cd2 - Live from Amsterdam" class="span-7">
+		<track n="1">Monsters in the Parasol</track>
+		<track n="2">Misfit Love</track>		
+		<track n="3">If Only</track>		
+		<track n="4">I Think I Lost My Headache</track>		
+		<track n="5">Into the Hollow</track>		
+	</side>
+	<side val="" class="last span-6">
+		<track n="6">Go With the Flow</track>
+		<track n="7">Regular John</track>		
+		<track n="8">Avon</track>		
+		<track n="9">Song for the Dead</track>		
+	</side>
+</tracks>

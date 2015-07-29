@@ -1,0 +1,145 @@
+@charset "utf-8";
+
+body {
+	background-color:#000;
+}
+ul, ol{
+	margin: 0 0 0 0px;
+	-webkit-margin-before: 0em;
+	-webkit-margin-after: 0em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+	-webkit-padding-start: 0px;
+	padding-left: 2.5em;
+}
+.list{
+	margin-bottom: 10px;
+}
+#title {
+	margin-bottom: 10px;
+	vertical-align: middle;
+	text-align: center;
+	position: relative;
+}
+#footer{
+	background: #000;
+	padding-bottom: 40px;
+	text-align: center;
+	overflow: hidden;
+}
+#body, #body1{
+	margin-bottom: 40px;
+}
+#header, #header1{
+	margin-top: 30px;
+}
+#header{
+	margin-bottom: 50px;
+}
+#header1, #error {
+	background: #000;
+	margin-bottom: 25px;
+}
+.container, #header1{
+	position: relative;
+}
+#footer a, #footer span.turqo{
+	color: #00aacc;
+}
+#error{
+	text-align: center;
+	margin-top: 50px;
+}
+.text{
+	margin-top: 20px;
+	padding-top: 30px;
+}
+.text1{
+	margin-top: 10px;
+}
+.text2{
+	margin-top: 20px;
+}
+.text3{
+	margin-top: 5px;
+}
+a:link , a:active, a:visited{
+	color: #666666;
+	text-decoration:none;
+}
+a:hover {
+	background-color: #333333;
+	text-decoration:none;
+}
+
+#title a:link , #title a:active, #title a:visited, #title a:hover{
+	font-size: 30px;
+	font-weight: normal;
+	color: #FFFFFF;
+	background: #111;
+}
+.style1, .style2, .style3, .style4, .style5, .style6, .style7, .style8 {font-family: "Courier New", Courier, monospace;}
+
+.style2 {
+	font-size: 12px;
+	font-weight: normal;
+	color: #666666;
+}
+.style2 span{
+	color: #aaa;
+}
+.style5{
+	font-size: 30px;
+	font-weight: normal;
+	color: #FFFFFF;
+}
+.style7{
+	font-size: 20px;
+	font-weight: normal;
+	color: #FFFFFF;
+}
+.social{
+	position: relative;
+	left: 0px;
+}
+.social a:hover,.social_release a:hover{
+	opacity: 0.7;
+	background-color: #000;
+}
+.twitter-share-button{
+	position: relative;
+	top: 10px;
+}
+.social .top{
+	position: relative;
+	top: 5px;
+}
+.twitter-follow-button-custom{
+	position: relative;
+	top: 5px;
+}
+.twitter-share-button:hover,.twitter-follow-button:hover, .fb-like:hover{
+	opacity: 0.7;
+}
+.prepend-0{
+	padding-left: 10px;
+}
+.span-24-1{
+	width: 940px;
+	float: left;
+	margin-right: 0px;
+}
+.span-22-1{
+	width: 890px;
+	margin-right: 0;
+	float: left;
+}
+.append-1{
+	padding-right: 40px;
+}
+#fb-root{
+	display: none;
+}
+.fb-like{
+	top: -6px;
+}

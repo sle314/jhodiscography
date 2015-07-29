@@ -1,0 +1,3 @@
+<?php
+	$db->getBottomButtons();
+?>	
