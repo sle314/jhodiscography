@@ -19,7 +19,7 @@ foreach($widths as $key => $width)
 					foreach ($result as $item){
 			?>
 						<li>
-							<a class="<?php echo $item['class']; ?>" id="nr<?php echo $item['id']; ?>" href="<?php echo "/releases/".$vars['band']."/".$vars['format']."/".$key."/".$item['id']; ?>#rel">
+							<a class="<?php echo $item['class']; ?>" id="nr<?php echo $item['id']; ?>" href="<?php echo "/releases/".$vars['band']."/".$vars['format']."/".$key."/".$item['id']; ?>">
 							<?php echo $item['name']; ?>
 							</a>
 						</li>
