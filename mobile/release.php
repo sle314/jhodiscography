@@ -1,4 +1,4 @@
-<?php 
+<?php
 include '../mysql.php';
 include '../functions.php';
 $db = new JHoDisc();
@@ -33,13 +33,13 @@ $db->setOppId();
 		<a class="ui-btn-left" rel="external" style="top:15px;" href="/mobile/releases/<?php echo $vars['band'] ?>/<?php echo $vars['format'] ?>/<?php echo $vars['type'] ?>#n<?php echo $vars['id']?>" data-inline="true" data-icon="back" data-iconpos="notext"></a>
 		<a class="ui-btn-left" rel="external" style="top:15px;left: 35px;" href="/mobile/<?php echo $vars['band']."/".$vars['format']."/".$vars['type'] ?>" data-icon="home" data-inline="true" data-iconpos="notext">Back</a>
 		<h1><?php echo $db->bandShortNames[$vars['band']]." ".$db->getReleaseType()." ".$db->getFormatName()."<br/>-<br/>".$db->getReleaseName(); ?></h1>
-		<?php 
+		<?php
 			if ($db->getOppId()){
-		?>		
+		?>
 				<a class="ui-btn-right" rel="external" style="top:5px;" href="/mobile/releases/<?php echo $_GET['band']?>/<?php echo $db->getOppFormat()?>/<?php echo $_GET['type']?>/<?php echo $db->getOppId() ?>/"><?php echo $db->getOppVersion() ?><br/>version</a>
-		<?php 
+		<?php
 			}
-		?>		
+		?>
 	</div>
 	<div data-role="content" id="container" class="release-cont">
 <?php
@@ -64,25 +64,25 @@ if ($_REQUEST["id"] && is_numeric($_REQUEST["id"]) && $db->checkId($_REQUEST["id
 					<td class="row">
 						Label:
 					</td>
-					<td><?php echo $item['label'] ?></td>	
+					<td><?php echo $item['label'] ?></td>
 					</tr>
 					<tr>
 					<td class="row">
-						<?php 
-							if ($vars['format'] == 'v') echo "Info:";
+						<?php
+							if ($vars['format'] == 'vinyl') echo "Info:";
 							else echo "Barcode:";
-						?> 
+						?>
 					</td>
-					<td><?php echo $item['info']; ?></td>	
+					<td><?php echo $item['info']; ?></td>
 					</tr>
 					<tr>
 					<td class="row">
 						Matrix:
 					</td>
 					<td><?php echo $item['matrix'] ; ?></td>
-					</tr>					
+					</tr>
 					</table>
-					<div class="t-list-wrapper">						
+					<div class="t-list-wrapper">
 						<div id="getTracks" class="<?php echo $item['id']?>">
 							<a href="#">tap to load track list</a>
 						</div>
@@ -90,7 +90,7 @@ if ($_REQUEST["id"] && is_numeric($_REQUEST["id"]) && $db->checkId($_REQUEST["id
 					<div>
 						<div style="display: none;" class="tap-lrg" id="tap-lrg<?php echo $item['id']?>">*tap an image for a larger view</div>
 						<div class="getImgs"><a href="#" id="<?php echo $item['id']?>">tap to load images</a></div>
-						<div class="pics" style="display: none;">	
+						<div class="pics" style="display: none;">
 						</div>
 					</div>
 				</div>
@@ -113,22 +113,22 @@ if ($_REQUEST["id"] && is_numeric($_REQUEST["id"]) && $db->checkId($_REQUEST["id
 							  data: { id: <?php echo $vars['id']?>, id2 : pics.attr("id") },
 							  tries : tries,
 							  beforeSend : $.mobile.showPageLoadingMsg()
-							}).done(function( data ) {	
-								if (data.indexOf("none") == -1 && data.indexOf("<img") == -1 && this.tries > 0){								
+							}).done(function( data ) {
+								if (data.indexOf("none") == -1 && data.indexOf("<img") == -1 && this.tries > 0){
 									this.tries--;
 									ajax(this.tries, pics);
 									return;
 								}
-								if (this.tries > 0){								
-								  pics.parent().siblings(".pics").html(data).fadeIn(1000);							  
-								}								
+								if (this.tries > 0){
+								  pics.parent().siblings(".pics").html(data).fadeIn(1000);
+								}
 							}).fail(function(xsr){
-								if (this.tries > 0){								
+								if (this.tries > 0){
 									this.tries--;
 									ajax(this.tries, pics);
 									return;
 								}
-							
+
 							}).always(function(){
 								if (this.tries <= 0){
 									$(".pics").html("can't get images, please refresh the page and try again").fadeIn(1000);
@@ -137,9 +137,9 @@ if ($_REQUEST["id"] && is_numeric($_REQUEST["id"]) && $db->checkId($_REQUEST["id
 								$.mobile.hidePageLoadingMsg();
 								$("#tap-lrg"+pics.attr("id")).show()
 							});}
-		$(".getImgs a").unbind("click").click(function(){				
-				ajax(5,$(this));				
-		});	
+		$(".getImgs a").unbind("click").click(function(){
+				ajax(5,$(this));
+		});
 
 		var ajaxTracks = function(tries, tracks){xhr = $.ajax({
 							  type: "POST",
@@ -147,36 +147,36 @@ if ($_REQUEST["id"] && is_numeric($_REQUEST["id"]) && $db->checkId($_REQUEST["id
 							  data: { id: <?php echo $vars['id']?>, id2 : tracks.attr("class") },
 							  tries : tries,
 							  beforeSend : $.mobile.showPageLoadingMsg()
-							}).done(function( data ) {	
-								if (data.indexOf("same") == -1 && data.indexOf("unavailable") == -1 && data.indexOf("t-list-inner") == -1 && this.tries > 0){								
+							}).done(function( data ) {
+								if (data.indexOf("same") == -1 && data.indexOf("unavailable") == -1 && data.indexOf("t-list-inner") == -1 && this.tries > 0){
 									this.tries--;
 									ajaxTracks(this.tries, tracks);
 									return;
 								}
-								if (this.tries > 0){								
-								  tracks.html(data).fadeIn(1000);							  
-								}								
+								if (this.tries > 0){
+								  tracks.html(data).fadeIn(1000);
+								}
 							}).fail(function(xsr){
-								if (this.tries > 0){								
+								if (this.tries > 0){
 									this.tries--;
 									ajaxTracks(this.tries, tracks);
 									return;
 								}
-							
+
 							}).always(function(){
 								if (this.tries <= 0){
 									tracks.html("can't get tracks, please refresh the page and try again").fadeIn(1000);
 								}
 								$.mobile.hidePageLoadingMsg();
 							});}
-		
+
 		$("#getTracks a").unbind("click").click(function(){
 				ajaxTracks(5,$(this).parent());
-		});	
-		
+		});
+
 		var num;
-		if ((num = "<?php echo $_REQUEST['show'] ?>")  != null){	
-			
+		if ((num = "<?php echo $_REQUEST['show'] ?>")  != null){
+
 			if (num == "all"){
 				$(".ui-btn-inner").trigger("click");
 			}
@@ -184,7 +184,7 @@ if ($_REQUEST["id"] && is_numeric($_REQUEST["id"]) && $db->checkId($_REQUEST["id
 				$("#rel"+num+" .ui-btn-inner").trigger("click");
 			}
 		}
-		
+
 	});
 </script>
 </body>
