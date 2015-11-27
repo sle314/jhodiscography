@@ -131,7 +131,7 @@ class JHoDisc extends Database
 		$this->setOppId();
 		$q = "/releases/$this->b/$this->of";
 		if($_REQUEST['id'] && $this->oppId){
-			$q = "/releases/$this->b/$this->of/$this->t/$this->oppId#rel";
+			$q = "/releases/$this->b/$this->of/$this->oppType/$this->oppId#rel";
 		}
 		return $q;
 	}
@@ -151,10 +151,11 @@ class JHoDisc extends Database
 
 		$s1 = "`release` JOIN `names` ON names.id=release.id_name";
 		$s2 = "band='$this->b' AND names.name = '".$name_row[0]['name']."' and format='$this->of'";
-		$this->select($s1, 'release.id as id', $s2, null);
+		$this->select($s1, 'release.id as id, release.type as type', $s2, null);
 		$name_row = $this->getResult();
 
 		$this->oppId = $name_row[0]['id'];
+		$this->oppType = $name_row[0]['type'];
 
 		if (!$this->oppId && $this->b == 'ds')
 		{
@@ -368,7 +369,7 @@ class JHoDisc extends Database
 			{
 		?>
 			<li class="text2 class2">
-				<a href="<?php echo "/releases/$this->b/$this->of/$this->t/$this->oppId"; ?>#rel"><?php echo $this->gFN; ?></a>
+				<a href="<?php echo "/releases/$this->b/$this->of/$this->oppType/$this->oppId"; ?>#rel"><?php echo $this->gFN; ?></a>
 			</li>
 		<?php
 			}
