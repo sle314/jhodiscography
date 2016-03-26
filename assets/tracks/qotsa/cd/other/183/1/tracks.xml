@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tracks>
+    <side val="Disc 1" class="span-10">
+        <track n="4">QotSA - I Appear Missing (UNKLE Remix)</track>
+        <track n="12">QotSA - ...Like Clockwork (UNKLE Remix)</track>
+    </side>
+    <side val="Disc 2" class="last span-12">
+        <track n="7">QotSA - No One Knows</track>
+    </side>
+</tracks>
